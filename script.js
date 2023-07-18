@@ -1,11 +1,3 @@
-document.querySelector('button').addEventListener('click', () => {
-    document.querySelector('audio').play()
-  })
-  function play() {
-    var audio = new Audio('sounds/win.mp3');
-    audio.play();
-  }
-
   window.requestAnimFrame = (function(){
     return window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
