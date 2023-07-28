@@ -1,3 +1,11 @@
+document.querySelector('button').addEventListener('click', () => {
+    document.querySelector('audio').play()
+  })
+  function play() {
+    var audio = new Audio('sounds/win.mp3');
+    audio.play();
+  }
+
   window.requestAnimFrame = (function(){
     return window.requestAnimationFrame ||
         window.webkitRequestAnimationFrame ||
@@ -983,7 +991,7 @@ Slot.prototype = {
 
         this.displays.pays.draw(this.ctx, 0);
 
-    this.payout = 4000;
+    this.payout = 4900;
         if (this.payout > 0) {
             this._animateWinReelLightOffCounter = this.animateWinReelLightOffCount;
 
