@@ -991,7 +991,7 @@ Slot.prototype = {
 
         this.displays.pays.draw(this.ctx, 0);
 
-    this.payout = 4900;
+    this.payout = 5000;
         if (this.payout > 0) {
             this._animateWinReelLightOffCounter = this.animateWinReelLightOffCount;
 
